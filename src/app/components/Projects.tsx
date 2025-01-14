@@ -8,6 +8,7 @@ import {
 } from "../../components/ui/card";
 import { Section } from "../../components/ui/section";
 import { RESUME_DATA } from "../../data/resume-data";
+import Image from "next/image";
 
 type ProjectTags = readonly string[];
 
@@ -126,11 +127,13 @@ function ProjectCard({ title, description, tags, link, githubUrl, imageUrl }: Pr
     >
       {imageUrl && (
         <div className="mb-3 overflow-hidden rounded-lg">
-          <img
-            src={imageUrl}
-            alt={`Preview of ${title}`}
-            className="h-40 w-full object-cover transition-transform duration-300 hover:scale-105"
-          />
+          <Image
+          src={imageUrl}
+          alt={`Preview of ${title}`}
+          width={500}
+          height={160}
+          className="h-40 w-full object-cover transition-transform duration-300 hover:scale-105"
+        />
         </div>
       )}
       <CardHeader>
