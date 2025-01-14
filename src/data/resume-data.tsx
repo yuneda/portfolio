@@ -14,22 +14,19 @@ export const RESUME_DATA = {
   location: "Sidoarjo, Indonesia, GMT+7",
   locationLink: "https://maps.app.goo.gl/eJxokw6xx67XpdXy6",
   about:
-    "Software and Engineer focused on building efficient, user-centric solutions.",
+    "Software and Data Engineer focused on building efficient, user-centric solutions.",
   summary: (
     <>
       <p>
-        I'm a software engineer with 1+ years of experience building web applications. I specialize in React, TypeScript, and Node.js,
+        I'm a software engineer with 2 years of experience building web applications. I specialize in React, TypeScript, Python, Node.js, and Nest.js.
         with a passion for performance and accessibility.
       </p>
       <p>
-        I've worked with startups and enterprises, leading teams and projects
-        from ideation to launch. I'm a strong advocate for remote work and
-        open-source software.
+        I've worked with startups and enterprise. I'm always looking for new challenges and opportunities to learn and grow.
       </p>
     </>
   ),
-  avatarUrl: "https://media.licdn.com/dms/image/v2/D5603AQGA9ivMbzF3Gg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1718247958156?e=1742428800&v=beta&t=nMsVd4pAti7s0r8-V9-0j-G8t02L6jraGoEAo_KtVfs",
-  // avatarUrl: "https://pbs.twimg.com/profile_images/1533117965570170880/peE0bJNV_400x400.jpg",
+  avatarUrl: "yuneda.jpeg",
   personalWebsiteUrl: "https://yuneda.github.io/portfolio/",
   contact: {
     email: "yunedaalfajr@gmail.com",
@@ -62,17 +59,16 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "gocement",
+      company: "Gocement",
       link: "https://gocement.com/",
       badges: ["Python", "Big Query", "Google Cloud Platform", "Looker Studio"],
       title: "Data Engineer",
       logo: ConsultlyLogo,
-      start: "2024",
-      end: "2024",
+      start: "Mar 2024",
+      end: "Dec 2024",
       description: (
         <>
-          Leading technical architecture of a blockchain-based film funding
-          platform.
+          As a Data Engineer, I'm responsible for building and maintaining data pipelines, and creating dashboards for data analysis.
           <ul className="list-inside list-disc">
             <li>
               Developing Python scripts to automate the proccess using GCP Cloud Function and Big Query
@@ -99,12 +95,11 @@ export const RESUME_DATA = {
       ],
       title: "Web Developer",
       logo: ParabolLogo,
-      start: "2023",
-      end: "2024",
+      start: "Mar 2023",
+      end: "Mar 2024",
       description: (
         <>
-          Senior developer and squad leader for an enterprise agile meeting
-          platform.
+          Built web apps with React, Firebase, and Redis, integrated payments with Xendit, and collaborated with product and QA teams.
           <ul className="list-inside list-disc">
             <li>
             Contribute to the development of broadcast message system with pubsub
@@ -125,12 +120,11 @@ export const RESUME_DATA = {
       badges: ["Remote", "React", "TypeScript", "Nest.js", "PostgreSQL", "GraphQL"],
       title: "Full Stack Engineer",
       logo: ClevertechLogo,
-      start: "2022",
-      end: "2023",
+      start: "Nov 2022",
+      end: "Mar 2023",
       description: (
         <>
-          Successfully transitioned from mobile to full-stack development while
-          leading distributed teams.
+          Built interfaces with React, developed full-stack apps with NestJS, documented APIs, implemented authentication, added push notifications, and integrated WhatsApp OTP.
           <ul className="list-inside list-disc">
             <li>
             Developed intuitive and visually appealing user interfaces that enhance user experience using React, TypeScript, and Chakra UI
@@ -163,23 +157,27 @@ export const RESUME_DATA = {
       title: "My Notes App",
       techStack: ["Javascript", "React.js", "Redux", "Styled Component"],
       description:
-        "My Notes App is a simple and intuitive note-taking app designed to keep your ideas, and tasks. Whether you’re jotting down quick thoughts, creating to-do lists, or planning projects.",
+        "My Notes App is a simple, intuitive tool for capturing ideas, tasks, and plans, from quick notes to project to-do lists.",
       logo: MonitoLogo,
       link: {
         label: "My Notes App",
         href: "https://yuneda.github.io/React-JS-Notes-Website/",
       },
+      githubUrl: "https://github.com/yuneda/React-JS-Notes-Website",
+      imageUrl: "https://raw.githubusercontent.com/yuneda/React-JS-Notes-Website/main/src/images/ss-1.jpg",
     },
     {
       title: "Secondhand",
       techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
       description:
-        "Secondhand is an online platform for buying and selling secondhand items. It offers various categories to meet user needs. Registered users can act as both sellers and buyers using a single account. The platform connects sellers and buyers, allowing them to negotiate and complete transactions outside the platform.",
+        "Secondhand is an online platform for buying and selling used items, connecting users to negotiate and transact directly.",
       logo: MonitoLogo,
       link: {
         label: "https://secondhand-lilac.vercel.app/",
         href: "https://secondhand-lilac.vercel.app/",
       },
+      githubUrl: "https://github.com/yuneda/secondhand",
+      imageUrl: "/secondhand.png",
     },
   ],
 } as const;
