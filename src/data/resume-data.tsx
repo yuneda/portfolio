@@ -18,11 +18,11 @@ export const RESUME_DATA = {
   summary: (
     <>
       <p>
-        I'm a software engineer with 2 years of experience building web applications. I specialize in React, TypeScript, Python, Node.js, and Nest.js.
+        I&#39;m a software engineer with 2 years of experience building web applications. I specialize in React, TypeScript, Python, Node.js, and Nest.js.
         with a passion for performance and accessibility.
       </p>
       <p>
-        I've worked with startups and enterprise. I'm always looking for new challenges and opportunities to learn and grow.
+        I&#39;ve worked with startups and enterprise. I&#39;m always looking for new challenges and opportunities to learn and grow.
       </p>
     </>
   ),
@@ -68,7 +68,7 @@ export const RESUME_DATA = {
       end: "Dec 2024",
       description: (
         <>
-          As a Data Engineer, I'm responsible for building and maintaining data pipelines, and creating dashboards for data analysis.
+          As a Data Engineer, I&#39;m responsible for building and maintaining data pipelines, and creating dashboards for data analysis.
           <ul className="list-inside list-disc">
             <li>
               Developing Python scripts to automate the proccess using GCP Cloud Function and Big Query
