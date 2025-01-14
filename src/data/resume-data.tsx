@@ -164,7 +164,7 @@ export const RESUME_DATA = {
         href: "https://yuneda.github.io/React-JS-Notes-Website/",
       },
       githubUrl: "https://github.com/yuneda/React-JS-Notes-Website",
-      imageUrl: "https://raw.githubusercontent.com/yuneda/React-JS-Notes-Website/main/src/images/ss-1.jpg",
+      imageUrl: "note-preview.jpg",
     },
     {
       title: "Secondhand",
