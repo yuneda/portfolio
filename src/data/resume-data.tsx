@@ -9,94 +9,97 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Achmad Yuneda Alfajr",
+  initials: "AYA",
+  location: "Sidoarjo, Indonesia, GMT+7",
+  locationLink: "https://maps.app.goo.gl/eJxokw6xx67XpdXy6",
   about:
-    "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
+    "Software and Engineer focused on building efficient, user-centric solutions.",
   summary: (
     <>
-      Frontend-focused Full Stack Engineer specializing in high-performance
-      React applications, scalable Node.js services, and real-time collaboration
-      systems. Experienced in technical architecture design and remote team
-      leadership.
+      <p>
+        I'm a software engineer with 1+ years of experience building web applications. I specialize in React, TypeScript, and Node.js,
+        with a passion for performance and accessibility.
+      </p>
+      <p>
+        I've worked with startups and enterprises, leading teams and projects
+        from ideation to launch. I'm a strong advocate for remote work and
+        open-source software.
+      </p>
     </>
   ),
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  avatarUrl: "https://media.licdn.com/dms/image/v2/D5603AQGA9ivMbzF3Gg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1718247958156?e=1742428800&v=beta&t=nMsVd4pAti7s0r8-V9-0j-G8t02L6jraGoEAo_KtVfs",
+  // avatarUrl: "https://pbs.twimg.com/profile_images/1533117965570170880/peE0bJNV_400x400.jpg",
+  personalWebsiteUrl: "https://yuneda.github.io/portfolio/",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "yunedaalfajr@gmail.com",
+    tel: "+628980023612",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/yuneda",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/achmad-yuneda-alfajr/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/Yunedae",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Universitas Pembangunan Nasional 'Veteran' Jawa Timur",
+      degree: "Bachelor's Degree in Informatics Engineering",
+      start: "2019",
+      end: "2023",
     },
   ],
   work: [
     {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote", "React", "Next.js", "TypeScript", "Node.js"],
-      title: "Software Architect",
+      company: "gocement",
+      link: "https://gocement.com/",
+      badges: ["Python", "Big Query", "Google Cloud Platform", "Looker Studio"],
+      title: "Data Engineer",
       logo: ConsultlyLogo,
       start: "2024",
-      end: null,
+      end: "2024",
       description: (
         <>
           Leading technical architecture of a blockchain-based film funding
           platform.
           <ul className="list-inside list-disc">
             <li>
-              Architecting migration from CRA to Next.js for improved
-              performance, SEO, and DX
+              Developing Python scripts to automate the proccess using GCP Cloud Function and Big Query
             </li>
             <li>
-              Established release process enabling faster deployments and
-              reliable rollbacks
+            Creating and managing table data in BigQuery through join operations, leveraging automation and scheduled queries in GCP.
             </li>
             <li>
-              Implementing system-wide monitoring and security improvements
+            Design and implement dashboards using Looker to enable company analysis for monitoring business processes and evaluating sales data, utilizing BigQuery as the data source.
             </li>
           </ul>
         </>
       ),
     },
     {
-      company: "Parabol",
-      link: "https://parabol.co",
+      company: "SFS Group",
+      link: "https://www.sfsgroupid.com/",
       badges: [
         "Remote",
         "React",
         "TypeScript",
         "Node.js",
-        "GraphQL",
-        "Tailwind CSS",
+        "Firebase",
       ],
-      title: "Senior Full Stack Developer",
+      title: "Web Developer",
       logo: ParabolLogo,
-      start: "2021",
+      start: "2023",
       end: "2024",
       description: (
         <>
@@ -104,137 +107,78 @@ export const RESUME_DATA = {
           platform.
           <ul className="list-inside list-disc">
             <li>
-              Built design system with Tailwind CSS, improving development speed
-              and time to market
+            Contribute to the development of broadcast message system with pubsub
             </li>
             <li>
-              Implemented engineering practices: PR automation, code review
-              guidelines, and workflows
+            Integrate a payment gateway for both frontend and backend systems to support subscription management and cancellation using Xendit, including handling detailed invoice information for each billing cycle.
             </li>
             <li>
-              Open source contributions to Relay DevTools and React i18n tooling
+            Responsible for both the cloud function and frontend project using react, typescript, firebase, redis.
             </li>
           </ul>
         </>
       ),
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote", "React", "TypeScript", "Node.js", "Android", "Kotlin"],
-      title: "Lead Android Developer → Full Stack Developer",
+      company: "Aksamedia",
+      link: "https://aksamedia.co.id/",
+      badges: ["Remote", "React", "TypeScript", "Nest.js", "PostgreSQL", "GraphQL"],
+      title: "Full Stack Engineer",
       logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
+      start: "2022",
+      end: "2023",
       description: (
         <>
           Successfully transitioned from mobile to full-stack development while
           leading distributed teams.
           <ul className="list-inside list-disc">
             <li>
-              Led frontend team at Evercast, building real-time platform
-              supporting 30+ users per room with HD streaming and collaboration
-              tools
+            Developed intuitive and visually appealing user interfaces that enhance user experience using React, TypeScript, and Chakra UI
             </li>
             <li>
-              Developed offline-first Android app for DKMS, improving donor
-              registration process
+            Developed high-performance, scalable, and maintainable full-stack applications using NestJS, GraphQL, Apollo Server, and TypeORM
             </li>
             <li>
-              Led development teams across multiple successful client projects
+            Employed Swagger for seamless API documentation, enabling clear and comprehensive documentation for developers, stakeholders, and end-users alike
             </li>
           </ul>
         </>
       ),
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: ["On Site", "Android", "Java", "Kotlin"],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description: (
-        <>
-          First Android developer, grew and led a team of 15+ engineers while
-          establishing engineering culture.
-          <ul className="list-inside list-disc">
-            <li>
-              Developed apps for major Polish companies including LOT, Polskie
-              Radio, and Agora
-            </li>
-            <li>Built and mentored high-performing mobile development team</li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: ["On Site", "C/C++", "LTE", "Agile"],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description:
-        "Developed software for LTE base stations at enterprise scale, gaining strong fundamentals in software architecture, testing practices, and cross-team collaboration.",
     },
   ],
   skills: [
-    "React/Next.js/Remix",
+    "React/Next.js",
     "TypeScript",
+    "Javascript",
+    "Python",
     "Tailwind CSS",
-    "Design Systems",
-    "WebRTC",
-    "WebSockets",
     "Node.js",
     "GraphQL",
-    "Relay",
-    "System Architecture",
-    "Remote Team Leadership",
+    "BigQuery",
+    "Google Cloud Platform",
+    "Nest.js",
   ],
   projects: [
     {
-      title: "Monito",
+      title: "My Notes App",
+      techStack: ["Javascript", "React.js", "Redux", "Styled Component"],
+      description:
+        "My Notes App is a simple and intuitive note-taking app designed to keep your ideas, and tasks. Whether you’re jotting down quick thoughts, creating to-do lists, or planning projects.",
+      logo: MonitoLogo,
+      link: {
+        label: "My Notes App",
+        href: "https://yuneda.github.io/React-JS-Notes-Website/",
+      },
+    },
+    {
+      title: "Secondhand",
       techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
       description:
-        "Browser extension for debugging web applications. Includes taking screenshots, screen recording, E2E tests generation and generating bug reports",
+        "Secondhand is an online platform for buying and selling secondhand items. It offers various categories to meet user needs. Registered users can act as both sellers and buyers using a single account. The platform connects sellers and buyers, allowing them to negotiate and complete transactions outside the platform.",
       logo: MonitoLogo,
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Consultly",
-      techStack: [
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-        "Tailwind CSS",
-        "PostgreSQL",
-        "Redis",
-      ],
-      description:
-        "Platform for online consultations with real-time video meetings and scheduling",
-      logo: ConsultlyLogo,
-      link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
-    },
-    {
-      title: "Minimalist CV",
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
-      description:
-        "An open source minimalist, print friendly CV template with a focus on readability and clean design. >9k stars on GitHub",
-      logo: MonitoLogo,
-      link: {
-        label: "Minimalist CV",
-        href: "https://github.com/BartoszJarocki/cv",
+        label: "https://secondhand-lilac.vercel.app/",
+        href: "https://secondhand-lilac.vercel.app/",
       },
     },
   ],
