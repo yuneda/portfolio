@@ -2,6 +2,7 @@ import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { RESUME_DATA } from "@/data/resume-data";
+import { DownloadIcon } from "lucide-react";
 
 interface LocationLinkProps {
   location: typeof RESUME_DATA.location;
@@ -87,6 +88,11 @@ function ContactButtons({ contact, personalWebsiteUrl }: ContactButtonsProps) {
           label={social.name}
         />
       ))}
+      <SocialButton
+        href="/cv.pdf"
+        icon={DownloadIcon}
+        label="Download CV"
+      />
     </div>
   );
 }

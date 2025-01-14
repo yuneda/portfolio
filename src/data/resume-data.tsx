@@ -164,11 +164,11 @@ export const RESUME_DATA = {
         href: "https://yuneda.github.io/React-JS-Notes-Website/",
       },
       githubUrl: "https://github.com/yuneda/React-JS-Notes-Website",
-      imageUrl: "note-preview.jpg",
+      imageUrl: "/note-preview.jpg",
     },
     {
       title: "Secondhand",
-      techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
+      techStack: ["Javascript", "React.js"],
       description:
         "Secondhand is an online platform for buying and selling used items, connecting users to negotiate and transact directly.",
       logo: MonitoLogo,
