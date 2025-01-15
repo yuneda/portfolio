@@ -27,7 +27,7 @@ export const RESUME_DATA = {
     </>
   ),
   avatarUrl: "yuneda.jpeg",
-  personalWebsiteUrl: "https://yuneda.github.io/portfolio/",
+  personalWebsiteUrl: "https://portfolio-phi-ten-51.vercel.app/",
   contact: {
     email: "yunedaalfajr@gmail.com",
     tel: "+628980023612",
