@@ -9,6 +9,7 @@ import {
 import { Section } from "../../components/ui/section";
 import { RESUME_DATA } from "../../data/resume-data";
 import Image from "next/image";
+import { ParticlesComponent } from "../../components/Particles";
 
 type ProjectTags = readonly string[];
 
@@ -165,7 +166,8 @@ interface ProjectsProps {
  */
 export function Projects({ projects }: ProjectsProps) {
   return (
-    <Section className="print-force-new-page scroll-mb-16 print:space-y-4 print:pt-12">
+    <Section className="print-force-new-page scroll-mb-16 print:space-y-4 print:pt-12 relative">
+      <ParticlesComponent />
       <h2 className="text-xl font-bold" id="side-projects">
         Selected projects
       </h2>
