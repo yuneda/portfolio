@@ -11,14 +11,14 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 export const RESUME_DATA = {
   name: "Achmad Yuneda Alfajr",
   initials: "AYA",
-  location: "Sidoarjo, Indonesia, GMT+7",
+  location: "Surabaya, Indonesia, GMT+7",
   locationLink: "https://maps.app.goo.gl/eJxokw6xx67XpdXy6",
   about:
     "Software and Data Engineer focused on building efficient, user-centric solutions.",
   summary: (
     <>
       <p>
-        I&#39;m a software engineer with 2 years of experience building web applications. I specialize in React, TypeScript, Python, Node.js, and Nest.js.
+        I&#39;m a software engineer with 2.5 years of experience building web applications. I specialize in React, TypeScript, Python, Node.js, and Nest.js.
         with a passion for performance and accessibility.
       </p>
       <p>
@@ -27,7 +27,7 @@ export const RESUME_DATA = {
     </>
   ),
   avatarUrl: "yuneda.jpeg",
-  personalWebsiteUrl: "https://portfolio-phi-ten-51.vercel.app/",
+  personalWebsiteUrl: "https://yuneda.vercel.app/",
   contact: {
     email: "yunedaalfajr@gmail.com",
     tel: "+628980023612",
@@ -58,6 +58,32 @@ export const RESUME_DATA = {
     },
   ],
   work: [
+    {
+      company: "Tomie Technology",
+      link: "https://www.tomietech.com/",
+      badges: ["React", "TypeScript", "Node.js", "Kafka", "PostgreSQL"],
+      title: "Software Engineer",
+      logo: ConsultlyLogo,
+      start: "Jan 2025",
+      end: "Present",
+      description: (
+        <>
+          As a Software Engineer, I&#39;m responsible for collaborating with designers, product managers, and stakeholders to
+          align technical execution with business objectives
+          <ul className="list-inside list-disc">
+            <li>
+            Convert UI/UX designs from Figma into fully responsive and interactive React applications, ensuring a seamless user experience across devices.
+            </li>
+            <li>
+            Develop and optimize application logic, maintaining clean, efficient, and scalable code for long-term maintainability.
+            </li>
+            <li>
+            Implement Kafka for real-time data streaming and inter-service communication between microservices, enabling seamless data flow and synchronization across multiple databases.
+            </li>
+          </ul>
+        </>
+      ),
+    },
     {
       company: "Gocement",
       link: "https://gocement.com/",
@@ -144,18 +170,33 @@ export const RESUME_DATA = {
     "React/Next.js",
     "TypeScript",
     "Javascript",
+    "Kafka",
+    "GraphQL",
+    "Google Cloud Platform",
+    "BigQuery",
+    "AWS",
     "Python",
     "Tailwind CSS",
     "Node.js",
-    "GraphQL",
-    "BigQuery",
-    "Google Cloud Platform",
     "Nest.js",
   ],
   projects: [
     {
+      title: "Memory Game",
+      techStack: ["TypeScript", "React", "Framer Motion"],
+      description:
+        "A fun and interactive memory card game built with React, TypeScript, and Tailwind CSS. Challenge your memory by finding matching pairs of cards while tracking your time and moves!",
+      logo: MonitoLogo,
+      link: {
+        label: "Memory Game",
+        href: "https://memory-game-yuneda.vercel.app/",
+      },
+      githubUrl: "https://github.com/yuneda/memory-game",
+      imageUrl: "/memory-game.png",
+    },
+    {
       title: "My Notes App",
-      techStack: ["Javascript", "React.js", "Redux", "Styled Component"],
+      techStack: ["Javascript", "React", "Redux", "Styled Component"],
       description:
         "My Notes App is a simple, intuitive tool for capturing ideas, tasks, and plans, from quick notes to project to-do lists.",
       logo: MonitoLogo,
@@ -168,7 +209,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Secondhand",
-      techStack: ["Javascript", "React.js"],
+      techStack: ["Javascript", "React"],
       description:
         "Secondhand is an online platform for buying and selling used items, connecting users to negotiate and transact directly.",
       logo: MonitoLogo,
