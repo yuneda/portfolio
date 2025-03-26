@@ -14,15 +14,11 @@ export const RESUME_DATA = {
   location: "Surabaya, Indonesia, GMT+7",
   locationLink: "https://maps.app.goo.gl/eJxokw6xx67XpdXy6",
   about:
-    "Software and Data Engineer focused on building efficient, user-centric solutions.",
+    "AI-driven Software and Data Engineer focused on building efficient, intelligent, and user-centric solutions.",
   summary: (
     <>
       <p>
-        I&#39;m a software engineer with 2.5 years of experience building web applications. I specialize in React, TypeScript, Python, Node.js, and Nest.js.
-        with a passion for performance and accessibility.
-      </p>
-      <p>
-        I&#39;ve worked with startups and enterprise. I&#39;m always looking for new challenges and opportunities to learn and grow.
+      Software Engineer with 2.5 years of experience with varying degrees between front end, back end and automation. Capable of working with a variety of technology and software solutions and managing databases. Beyond traditional development, I have also worked on AI-driven solutions, particularly in Generative AI.
       </p>
     </>
   ),
