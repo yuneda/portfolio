@@ -18,7 +18,7 @@ export const RESUME_DATA = {
   summary: (
     <>
       <p>
-      Software Engineer with 2.5 years of experience with varying degrees between front end, back end and automation. Capable of working with a variety of technology and software solutions and managing databases. Beyond traditional development, I have also worked on AI-driven solutions, particularly in Generative AI.
+      Software Engineer with 3 years of experience with varying degrees between front end, back end and automation. Capable of working with a variety of technology and software solutions and managing databases. Beyond traditional development, I have also worked on AI-driven solutions, particularly in Generative AI.
       </p>
     </>
   ),
@@ -68,10 +68,28 @@ export const RESUME_DATA = {
           align technical execution with business objectives
           <ul className="list-inside list-disc">
             <li>
+            Lead the architecture, design, and development of scalable, robust, software solutions.
+            </li>
+            <li>
+            Spearheaded the setup of A WS infrastructure and DevOps pipelines, creating RFCs and deployment documentation adopted company-wide.
+            </li>
+            <li>
+            Acted as the primary point of contact for all DevOps-related initiatives, supporting developers and maintaining deployment reliability.
+            </li>
+            <li>
             Convert UI/UX designs from Figma into fully responsive and interactive React applications, ensuring a seamless user experience across devices.
             </li>
             <li>
             Develop and optimize application logic, maintaining clean, efficient, and scalable code for long-term maintainability.
+            </li>
+            <li>
+            Manage end-to-end application deployments, including CI/CD pipeline configuration and release management.
+            </li>
+            <li>
+            Delivered internal tech talks to share technical improvements and promote engineering excellence within the development team.
+            </li>
+            <li>
+            Mentored developers by enforcing coding standards, clean architecture principles, and promoting continuous learning culture.
             </li>
             <li>
             Implement Kafka for real-time data streaming and inter-service communication between microservices, enabling seamless data flow and synchronization across multiple databases.
@@ -175,6 +193,7 @@ export const RESUME_DATA = {
     "Tailwind CSS",
     "Node.js",
     "Nest.js",
+    "Amazon Web Services",
   ],
   projects: [
     {
