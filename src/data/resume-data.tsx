@@ -197,6 +197,32 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "CV Review AI",
+      techStack: ["Gemini", "Chart.JS", "TypeScript", "React"],
+      description:
+        "A modern application that helps you extract text from CV/resume PDFs and provides professional AI-powered reviews and feedback to improve your resume.",
+      logo: MonitoLogo,
+      link: {
+        label: "CV Review AI",
+        href: "https://cv-review-smoky.vercel.app/",
+      },
+      githubUrl: "",
+      imageUrl: "/cv-review.png",
+    },
+    {
+      title: "Yuneda AI",
+      techStack: ["OpenAI", "Gemini", "TypeScript", "React"],
+      description:
+        "A modern, responsive chat interface for interacting with AI models. This application provides a clean, user-friendly interface for conversing with various AI providers, with initial support for Google's Gemini AI.",
+      logo: MonitoLogo,
+      link: {
+        label: "Yuneda AI",
+        href: "https://gpt-clone-sage.vercel.app/",
+      },
+      githubUrl: "",
+      imageUrl: "/yuneda-ai.png",
+    },
+    {
       title: "Memory Game",
       techStack: ["TypeScript", "React", "Framer Motion"],
       description:
