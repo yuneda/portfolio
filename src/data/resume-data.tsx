@@ -197,7 +197,7 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "CV Review AI",
+      title: "PDF Text Analyzer | Extract and Analyze PDF Content",
       techStack: ["Gemini", "Chart.JS", "TypeScript", "React"],
       description:
         "A modern application that helps you extract text from CV/resume PDFs and provides professional AI-powered reviews and feedback to improve your resume.",
@@ -213,7 +213,7 @@ export const RESUME_DATA = {
       title: "Yuneda AI",
       techStack: ["OpenAI", "Gemini", "TypeScript", "React"],
       description:
-        "A modern, responsive chat interface for interacting with AI models. This application provides a clean, user-friendly interface for conversing with various AI providers, with initial support for Google's Gemini AI.",
+        "yuneda.ai is a web-based chat application that allows users to have natural conversations with an AI assistant. Similar to modern AI chatbots, users can ask questions, get help with tasks, or simply engage in conversation through a simple text interface. This project demonstrates skills in modern web development, user interface design, and integration with AI technologies.",
       logo: MonitoLogo,
       link: {
         label: "Yuneda AI",
